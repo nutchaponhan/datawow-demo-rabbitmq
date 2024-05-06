@@ -1,0 +1,14 @@
+{
+  "name": "datawow-demo-rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nutchaponhan/datawow-demo-rabbitmq.git",
+  "license": "MIT",
+  "scripts": {
+    "start-register": "node ./service-a/index.js",
+    "start-recovery": "node ./service-b/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
